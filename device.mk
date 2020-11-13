@@ -44,7 +44,6 @@ $(call inherit-product, device/motorola/osprey/system_prop.mk)
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.device.config.sh \
     init.target.rc
 
 # Sensors
