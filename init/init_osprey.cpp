@@ -166,7 +166,7 @@ void vendor_load_properties()
     }
 
     if (GetProperty("ro.telephony.default_network", "").empty()) {
-        property_set("ro.telephony.default_network", "9");
+        property_set("ro.telephony.default_network", "10");
     }
 
     if (MSIM) {
