@@ -14,7 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_osprey.mk
+    $(LOCAL_DIR)/rr_osprey.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_osprey-userdebug
+    rr_osprey-userdebug \
+    rr_osprey-eng
